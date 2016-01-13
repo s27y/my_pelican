@@ -6,6 +6,16 @@ Tags:
 Slug: hello-world
 Authors: Yang Sun
 Summary:
-Status: draft
+Status: 
 
 Hello World!
+
+There are two ways to specify the identifier:
+
+    :::python
+    print("The triple-colon syntax will *not* show line numbers.")
+
+To display line numbers, use a path-less shebang instead of colons:
+
+    #!python
+    print("The path-less shebang syntax *will* show line numbers.")

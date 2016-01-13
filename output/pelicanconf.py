@@ -26,7 +26,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('LinkedIn', 'https://ie.linkedin.com/in/yangsuntcd'),
+SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
@@ -35,25 +35,3 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 #THEME="pelican-themes/pelican-blueidea"
-
-# The name of the subfolder is not  category name
-USE_FOLDER_AS_CATEGORY = False
-
-DISPLAY_PAGES_ON_MENU = True
-DISPLAY_CATEGORIES_ON_MENU = False
-
-# The number of words from the beginning of an article are used as the summary
-SUMMARY_MAX_LENGTH = 50
-
-# Static path to be copied as is under 'output/'
-STATIC_PATHS = [
-    'images',
-    'pages',
-    'posts'
-]
-
-ARTICLE_SAVE_AS = 'posts/{date:%Y-%m}/{slug}.html'
-ARTICLE_URL = 'posts/{date:%Y-%m}/{slug}.html'
-PAGE_URL = 'pages/{slug}.html'
-PAGE_SAVE_AS = 'pages/{slug}.html'
-

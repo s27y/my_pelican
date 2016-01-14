@@ -20,6 +20,7 @@ Previously I studied Networks and Distributed System in [Trinity College Dublin]
 I am interested in coding, reading, and recently I pick up investing as I got a little bit extra cash.
 
 Check my LinkedIn page from more details.
+![me?]({filename}/images/default-avatar.png)
 
 ### Why I create this blog?
 

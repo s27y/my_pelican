@@ -8,14 +8,7 @@ Authors: Yang Sun
 Summary:
 Status: 
 
-Hello World!
+### Welcome to Yang Sun's blog. The site is under construction.
 
-There are two ways to specify the identifier:
+![Site under construction]({filename}/images/under_construction.png)
 
-    :::python
-    print("The triple-colon syntax will *not* show line numbers.")
-
-To display line numbers, use a path-less shebang instead of colons:
-
-    #!python
-    print("The path-less shebang syntax *will* show line numbers.")

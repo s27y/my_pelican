@@ -8,7 +8,8 @@ Authors: Yang Sun
 Summary:
 Status: 
 
-### Project 1
+### [Web Based Amazon SimpleDB Management Tool](https://github.com/s27y/aws_sdb_ruby_web_ui)
+Final Project of COMP41110 Cloud Computing in UCD
 
 ### Project 2
 

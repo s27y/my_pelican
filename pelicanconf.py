@@ -43,7 +43,7 @@ DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 
 # The number of words from the beginning of an article are used as the summary
-SUMMARY_MAX_LENGTH = 50
+SUMMARY_MAX_LENGTH = 100
 
 # Static path to be copied as is under 'output/'
 STATIC_PATHS = [

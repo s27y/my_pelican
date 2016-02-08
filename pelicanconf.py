@@ -20,10 +20,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (#('Pelican', 'http://getpelican.com/'),
+         #('Python.org', 'http://python.org/'),
+         #('Jinja2', 'http://jinja.pocoo.org/'),
+         #('You can modify those links in your config file', '#'),
+         )
 
 # Social widget
 SOCIAL = (('LinkedIn', 'https://ie.linkedin.com/in/yangsuntcd'),
@@ -34,7 +35,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-#THEME="pelican-themes/pelican-blueidea"
+#THEME="/Users/yangsun/Envs/my_pelican/lib/python2.7/site-packages/pelican/themes/simple"
 
 # The name of the subfolder is not  category name
 USE_FOLDER_AS_CATEGORY = False
@@ -49,8 +50,15 @@ SUMMARY_MAX_LENGTH = 100
 STATIC_PATHS = [
     'images',
     'pages',
-    'posts'
+    'posts',
+    'extra/robots.txt',
+    #'extra/favicon.ico'
 ]
+
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    #'extra/favicon.ico': {'path': 'favicon.ico'}
+}
 
 ARTICLE_SAVE_AS = 'posts/{date:%Y-%m}/{slug}.html'
 ARTICLE_URL = 'posts/{date:%Y-%m}/{slug}.html'

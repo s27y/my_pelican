@@ -8,7 +8,9 @@ Authors: Yang Sun
 Summary:
 Status: draft
 
-I bought tons of domain in the last few years - qero.net, ebe.me, yang.so and the one I start using since yesterday afternoon - YangSun.me
+I bought tons of domain in the last few years - qero.net, ebe.me, yang.so and the one I fiinally started using since yesterday afternoon - YangSun.me
+
+This domain was registered on an impluse in late 2014, but due to the work load from the study of my master course in UCD, it took me more than a year to get my hand on this domain.
 
 Yesterday afternoon, I was reading a Java Cert book and started feeling boring with the tricky exam questions, so I did a quick lookup on my favourate domain reseller - [NameCheap](#)
 

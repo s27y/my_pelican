@@ -8,20 +8,26 @@ Authors: Yang Sun
 Summary:
 Status: draft
 
-I bought tons of domain in the last few years - qero.net, ebe.me, yang.so and the one I fiinally started using since yesterday afternoon - YangSun.me
+I bought tons of domain in the last few years - qero.net, ebe.me, yang.so and the one I finally started using since yesterday afternoon - YangSun.me
 
-This domain was registered on an impluse in late 2014, but due to the work load from the study of my master course in UCD, it took me more than a year to get my hand on this domain.
+This domain was registered on an impulse in late 2014, but due to the work load from the study of my master course in UCD, it took me more than a year to get my hand on this domain.
 
-Yesterday afternoon, I was reading a Java Cert book and started feeling boring with the tricky exam questions, so I did a quick lookup on my favourate domain reseller - [NameCheap](#)
+Yesterday afternoon, I was reading a Java Cert book and started feeling boring with the tricky exam questions, so I did a quick lookup on my favourite domain reseller - [NameCheap](https://www.namecheap.com/?aff=96185). Yes! My expired domain can be registered now. I registered the domain and added three DNS settings, less than 12 hours, YangSun.me is up and running.
 
-Why it is my favourate?
-Github student pack!
-free one year .me domain register
+The first time I notice [NameCheap](https://www.namecheap.com/?aff=96185) is from GitHub. GitHub has a special perk for students called [Student Developer Pack](https://education.github.com/pack). The pack has many free bits for students(like free one year .me domain name from [NameCheap](https://www.namecheap.com/?aff=96185), free 50$ credit in [DigitalOcean](https://m.do.co/c/f68d634be5d8), and many more!)
 
-This history of this domain and me
+This domain was first registered in December 2014 when I was attending my Master course in [UCD](http://www.ucd.ie). The main reason at that time was I want to create a website with my CV and my project on it. After I registered the domain for free with [NameCheap](https://www.namecheap.com/?aff=96185), I created a HTML page and link it to [my GitHub](http://github.com/s27y). Then I totally forgot about the website.
 
-Why i decide to use this domain?
+What am I going do with this domain?
 
+I always want to start writing to record the happiness and sadness in my life, but all I did was build a VPS/blog/WordPress and now pelican and then - totally forget about it after the website is up. This time, instead of building the website first, I am going to start writing first, then gradually improve the website.
 
-what about other domain names?
+What about other domain names?
 
+- ebe.me
+
+    Leave it.
+
+- yang.so
+
+    I will keep it as a side project

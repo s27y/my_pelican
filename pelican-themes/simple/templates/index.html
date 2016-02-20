@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+{% if LANDING_PAGE_ABOUT %}
+    {% for page in PAGES %}
+        {% if page.slug == "about-me" %}
+            <div id="about" class="row">
+                <header>
+                    <h2 class="twelve">{{ page.title }}</h2>
+                </header>
+                <div class="twelve">{{ page.summary }}</div>
+            </div>
+        {% endif %}
+
+    {% endfor %}
+{% endif %}
+
+{% if articles %}
+    <div id="posts">
+        <header class="row">
+            <h2 class="twelve columns">Posts</h2>
+        </header>
+        <div class="row">
+            <ul id="post-list" class="twelve columns">
+                {% for article in articles %}
+                    {% if not RECENT_ARTICLES_COUNT %}
+                    {% set RECENT_ARTICLES_COUNT = 10 %}
+                    {% endif %}
+                    {% if loop.index0 < RECENT_ARTICLES_COUNT %}
+                        <li>
+                            <header>
+                                <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }} {%if article.subtitle %} <small> {{ article.subtitle }} </small> {% endif %} </a>
+                            </header>
+                            <footer class="post-info">
+                                <time pubdate="publish-date" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+                            </footer>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+                <li>
+                    <a id="all-posts" href="{{ SITEURL }}/archives.html">all posts</a>
+                </li>
+            </ul><!-- /#posts-list -->
+        </div>
+    </div><!-- /#posts -->
+{% endif %}
+{% endblock content %}

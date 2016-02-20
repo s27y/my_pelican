@@ -11,3 +11,4 @@ Status: draft
 Commuting - Car, bike, walk, public transport.
 Investing - Stock, ETF, Silver
 Chinchilla
+Weight training

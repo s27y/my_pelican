@@ -6,7 +6,8 @@ Tags: java, certificate, exam
 Slug: java-se-7-programmer-i-exam-passed
 Authors: Yang Sun
 Summary:
-Status: 
+Status:
+disqus_identifier: yangsun.me/java-se-7-programmer-i-exam-passed
 
 After 5 days of reviewing my OCA Java SE 7 Programmer I Study Guide notes, I took the exam.
 

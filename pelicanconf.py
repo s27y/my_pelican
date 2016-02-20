@@ -35,7 +35,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-#THEME="/Users/yangsun/Envs/my_pelican/lib/python2.7/site-packages/pelican/themes/simple"
+THEME="pelican-themes/simple"
 
 # The name of the subfolder is not  category name
 USE_FOLDER_AS_CATEGORY = False
@@ -58,6 +58,8 @@ STATIC_PATHS = [
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/CNAME': {'path': 'CNAME'},
+    'extra/README.md': {'path': 'README.md'},
+    'extra/karmatic_arcade.ttf': {'path': 'theme/css/karmatic_arcade.ttf'},
     #'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 
@@ -66,3 +68,4 @@ ARTICLE_URL = 'posts/{date:%Y-%m}/{slug}.html'
 PAGE_URL = 'pages/{slug}.html'
 PAGE_SAVE_AS = 'pages/{slug}.html'
 
+LANDING_PAGE_ABOUT = True

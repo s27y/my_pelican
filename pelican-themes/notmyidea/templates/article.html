@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title|striptags }}{% endblock %}
+{% block content %}
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+           title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
+      {% include 'twitter.html' %}
+    </header>
+
+    <div class="entry-content">
+      {% include 'article_infos.html' %}
+      {{ article.content }}
+    </div><!-- /.entry-content -->
+    {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
+    <div class="comments">
+      <div class="comments_header">
+        <h2>{% include 'comments.html' %}</h2>
+      </div>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = '{{ DISQUS_SITENAME }}';
+        var disqus_identifier = '{{ article.url }}';
+        var disqus_url = '{{ SITEURL }}/{{ article.url }}';
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//{{ DISQUS_SITENAME }}.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the comments.</noscript>
+    </div>
+
+<script>
+    $(".comments_header").click(function () {
+
+    $header = $(this);
+    //getting the next element
+    $content = $header.next();
+    //open up the content needed - toggle the slide- if visible, slide up, if not slidedown.
+    $content.slideToggle(500, function () {
+        //execute this after slideToggle is done
+        //change text of header based on visibility of content div
+        $header.text(function () {
+            //change text based on condition
+            //return $content.is(":visible") ? "Collapse" : "Expand";
+        });
+    });
+
+});
+    </script>
+    {% endif %}
+
+  </article>
+</section>
+{% endblock %}

@@ -1,0 +1,108 @@
+ /*
+	Name: YangSun.Me Simple
+	Date: February 2016
+	Description: Simple layout with Skeleton
+	Version: 1.0
+	License: MIT <http://opensource.org/licenses/MIT>
+	Licensed by: Yang Sun
+*/
+
+ /* Imports */
+@import url("normalize.css");
+@import url("skeleton.css");
+
+@font-face {
+    font-family: pixel-font;
+    src: url(karmatic_arcade.ttf);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	border-bottom:thin dashed lightgray;
+}
+a:hover {
+	color: CornflowerBlue;
+	border-bottom:thin dashed black;
+}
+
+ul:not(#article-content) {
+	list-style: none;
+}
+/* Navbar */
+#site-title a{
+	border-style:none;
+}
+
+#nav {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#banner a{
+	font-family: pixel-font;
+	color: black;
+}
+
+nav {
+
+}
+#menu ul {
+	text-align: right;
+	padding-right: 40px;
+}
+
+#menu li {
+	display: inline-block;
+	padding-left: 1rem
+}
+
+* Tags */
+.list-of-tags {
+
+}
+
+.list-of-tags li {
+    line-height:28px;
+    display: inline;
+
+}
+
+.list-of-tags a {
+	border-style: initial;
+    padding: 3px 6px;
+    margin: 2px;
+    color: #222;
+    background: lightgray;
+    border-radius: 3px;
+    text-decoration:none;
+}
+.list-of-tags a:hover {
+	background: CornflowerBlue;
+}
+
+.list-of-tags a span {
+    vertical-align: super;
+    font-size: 0.8em;
+}
+
+/* Posts */
+.post-info {
+	margin-bottom: 20px;
+}
+.post-info time{
+	color: #666;
+}
+
+/* Comments*/
+.comments {
+	display: none;
+}
+
+/* Page Footer */
+#footer-about {
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 40px;
+	border-top:thin solid lightgray;
+}

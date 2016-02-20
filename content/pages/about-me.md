@@ -1,11 +1,11 @@
-Title: About
+Title: About Me
 Date: 2016-1-13 21:42
 Modified: 2016-1-13 21:42
 Category: 
 Tags:
-Slug: about
+Slug: about-me
 Authors: Yang Sun
-Summary:
+Summary: Hi, I'm Yang Sun, I'm a 25-year-old software engineer on [IBM](https://www.ibm.com)'s [SmartCloud](https://www.ibm.com/cloud-computing/social/us/en/) Operations team in Dublin. I have a Master of Science in Computer Science from [University College Dublin](http://www.ucd.ie/about-ucd/).Previously I studied Networks and Distributed System in [Trinity College Dublin](https://www.tcd.ie) and did my undergraduate course in [Dundalk Institute Of Technology](https://www.dkit.ie).
 Status: 
 
 
@@ -20,7 +20,6 @@ Previously I studied Networks and Distributed System in [Trinity College Dublin]
 I am interested in coding, reading, <del>weight lifting(stoped trainning after 5 years)</del> and recently I pick up investing as I got a little bit extra cash.
 
 Check my LinkedIn page from more details.
-![me?]({filename}/images/default-avatar.png)
 
 ### Why I create this blog?
 

@@ -105,10 +105,7 @@ def publish():
 def gh_pages():
     """Publish to GitHub Pages"""
     build(conf_file='publishconf.py')
-    local('cd output')
-    local('git add --all')
-    local('git commit -m "update content"')
-    local('git push gh_pages master')
+    local('cd output;git add --all;git commit -m "update content";git push gh_pages master')
 
 def make_entry(title, slug=None, overwrite="no"):
     """Make a new post"""

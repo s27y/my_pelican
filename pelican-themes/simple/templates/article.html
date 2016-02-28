@@ -2,24 +2,19 @@
 {% block title %}
 {{ article.title }} {%if article.subtitle %} - {{ article.subtitle }} {% endif %} · {{ super() }}
 {% endblock title %}
+
 {% block head %}
   {{ super() }}
-  {% if article.author %}
-    <meta name="author" content="{{ article.author }}" />
+  {% if article.tags or article.category or article.keywords %}
+  <meta name="keywords" content="{{ [article.tags|join(', '), article.category, article.keywords]|join(', ') }}" />
   {% endif %}
-  {% for keyword in article.keywords %}
-    <meta name="keywords" content="{{keyword}}" />
-  {% endfor %}
-
-  {% for description in article.description %}
-    <meta name="description" content="{{description}}" />
-  {% endfor %}
-
-  {% for tag in article.tags %}
-    <meta name="tags" content="{{tag}}" />
-  {% endfor %}
-
 {% endblock %}
+
+{% block head_description %}
+  {% if article.summary %}
+  {{ article.summary|striptags }}
+  {% endif %}
+{% endblock head_description %}
 
 {% block content %}
 <section id="content" class="body">
@@ -50,7 +45,7 @@
   
   {% if article.tags %}
     <div>
-      <h4>Tags</h4>
+      <h3>Tags</h3>
       <ul class="list-of-tags tags-in-article"> 
           {% for tag in article.tags|sort %}
           <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}

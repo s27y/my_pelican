@@ -12,3 +12,5 @@ Commuting - Car, bike, walk, public transport.
 Investing - Stock, ETF, Silver
 Chinchilla
 Weight training
+### How I sent up this blog
+pelican, github page, domaincheap

@@ -1,8 +1,8 @@
 Title: My Domain Name is Back! - YangSun.me
 Date: 2016-2-4 12:45
 Modified: 2016-2-4 12:45
-Category: 
-Tags:
+Category: tech
+Tags: domain
 Slug: my-domain-name-is-back-yangsun-me
 Authors: Yang Sun
 Summary:
@@ -19,17 +19,15 @@ The first time I notice [NameCheap](https://www.namecheap.com/?aff=96185) is fro
 
 This domain was first registered in December 2014 when I was attending my Master course in [UCD](http://www.ucd.ie). The main reason at that time was I want to create a website with my CV and my project on it. After I registered the domain for free with [NameCheap](https://www.namecheap.com/?aff=96185), I created an HTML page and link it to [my GitHub](http://github.com/s27y). Then I totally forgot about the website for a whole year.
 
-### What am I going do with this domain? ###
+#### What am I going do with this domain?
 
 I always want to start writing to record the happiness, sadness and the random things happened in my life, but all I did was build a VPS/blog/WordPress and now pelican and then - totally forget about it after the website is up. This time, instead of building the website first, I am going to start writing first, then gradually improve the website.
 
-### What about other domain names? ###
+#### What about other domain names? ###
 
-#### ebe.me ####
-
+##### ebe.me
 This domain was first registered five years ago when I was attending my undergraduate course in [DKIT](www.dkit.ie). Along with this domain, I also brought three years shared hosting plan from [GoDaddy](www.goDadday.com). At 2011, there was not much choice I can use to build a blog on a shared hosting plan, so I set up a WordPress on it, and I did wrote few blogs there in Chinese. Not long, it was abandoned.
 
-#### yang.so ####
-
+##### yang.so
 This is my first attempt to create a personal brand - So Yang(So Young). I tried to write some Linux tips and hints on it, but then i gave up.
 I am gooing to keep this domain if I have extra money to waste (.so domain cost $59 year, it isn't a small amount for a personal domain). Hopefully, I can keep it for my side projects.

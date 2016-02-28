@@ -11,6 +11,8 @@ Status:
 #### [Web Based Amazon SimpleDB Management Tool](https://github.com/s27y/aws_sdb_ruby_web_ui)
 Final Project of COMP41110 Cloud Computing in UCD
 
-#### Project 2
+#### [Cycling Guardian](https://github.com/s27y/cycling-guardian)
+Final Project of Android Mobile Development in UCD
 
-#### Project 3
+#### [Simple Blog](https://github.com/s27y/simple_blog)
+A simple ruby on rail blog system.

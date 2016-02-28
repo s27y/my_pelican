@@ -1,7 +1,17 @@
 {% extends "base.html" %}
-{% block title %}{{ page.title }}{%endblock%}
+
+{% block title %}
+{{ page.title }} {%if page.subtitle %} - {{ page.subtitle }} {% endif %} · {{ super() }}
+{% endblock title %}
+
+{% block head_description %}
+{% if page.summary %}
+{{ page.summary|striptags }}
+{% endif %}
+{% endblock head_description %}
+
 {% block content %}
-    <h1>{{ page.title }}</h1>
+    <h2>{{ page.title }}</h2>
     {% import 'translations.html' as translations with context %}
     {{ translations.translations_for(page) }}
 

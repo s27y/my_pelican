@@ -1,7 +1,7 @@
 Title: My OCA Java SE 7 Learning Journal
 Date: 2016-1-15 18:48
 Modified: 2016-2-06 18:48
-Category: 
+Category: personal
 Tags: java, certificate, exam
 Slug: my-oca-java-se-7-learning-journal
 Authors: Yang Sun
@@ -19,6 +19,6 @@ I am using Google Doc for notes taking.
 
 Let's see what I can get!
 
-###Update on 6th Feberary###
+#### Update on 6th Feberary
 [I passed my OCA Java SE 7 Programmer Exam!]({filename}/posts/2016-02/java-se-7-programmer-i-exam-passed.md)
 

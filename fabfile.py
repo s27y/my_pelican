@@ -47,9 +47,9 @@ def clean():
         shutil.rmtree(DEPLOY_PATH)
         os.makedirs(DEPLOY_PATH)
 
-def build():
+def build(conf_file='pelicanconf.py'):
     """Build local version of site"""
-    local('pelican -s pelicanconf.py')
+    local('pelican -s %s' % conf_file)
 
 def rebuild():
     """`clean` then `build`"""
@@ -104,11 +104,14 @@ def publish():
 
 def gh_pages():
     """Publish to GitHub Pages"""
-    rebuild()
-    local("ghp-import -b {github_pages_branch} {deploy_path}".format(**env))
-    local("git push origin {github_pages_branch}".format(**env))
+    build(conf_file='publishconf.py')
+    local('cd output')
+    local('git add --all')
+    local('git commit -m "update content"')
+    local('git push gh_pages master')
 
 def make_entry(title, slug=None, overwrite="no"):
+    """Make a new post"""
     if slug is None:
         slug = slugify(title)
 

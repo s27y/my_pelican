@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Yang Sun'
 SITENAME = u'Yang Sun'
 SITEURL = ''
+SITE_DESCRIPTION = 'Hi, I’m Yang Sun and this is my blog where I write blog articles about myself and my work.'
 
 PATH = 'content'
 
@@ -69,3 +70,6 @@ PAGE_URL = 'pages/{slug}.html'
 PAGE_SAVE_AS = 'pages/{slug}.html'
 
 LANDING_PAGE_ABOUT = True
+
+DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap')
+SITEMAP_SAVE_AS = 'sitemap.xml'

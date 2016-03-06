@@ -1,13 +1,13 @@
-Title: My First Garden Project - Grow My Own Strawberries
+Title: First Garden Project - Grow My Own Strawberries
 Date: 2016-2-22 19:56
 Modified: 2016-2-22 19:56
 Category: personal
 Tags: garden
-Slug: my-first-garden-project-grow-my-own-strawberries
+Slug: first-garden-project-grow-my-own-strawberries
 Authors: Yang Sun
 Summary:
 Status:
-disqus_identifier: yangsun.me/my-first-garden-project-grow-my-own-strawberries
+disqus_identifier: yangsun.me/first-garden-project-grow-my-own-strawberries
 
 I came across the idea of growing strawberries at home few month back in the summer while I was shopping the supermarket. Every time I looked at the beautiful and delicious strawberries, I couldn't stop myself of pick up few boxes of strawberries. After I went back home, I immediately consumed two boxes of strawberries and decided to leave the other few boxes for tomorrow. The day after, when I picked up the strawberries from my fridge, the strawberries are starting rotted. Then, the idea of growing my own strawberries came into my mind. I did some quick search on the Internet and found out strawberry is easy to grow and low maintain plants, but the best time to plant strawberry is early spring and late winter, I already missed that period.
 

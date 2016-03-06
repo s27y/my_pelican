@@ -18,8 +18,8 @@
     {{ page.content }}
 
 	{% if page.modified %}
-		<p>
-		Last updated: {{ page.locale_modified }}
-		</p>
+		<footer class="post-info">
+			<time pubdate="modified-date" datetime="{{ page.date.isoformat() }}">Updated on {{ page.locale_modified }}</time>
+		</footer>
 	{% endif %}
 {% endblock %}

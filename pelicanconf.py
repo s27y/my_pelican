@@ -52,18 +52,18 @@ STATIC_PATHS = [
     'images',
     'pages',
     'posts',
-    'extra',
+    'static/README.md',
+    'static/robots.txt',
+    'static/CNAME'
     #'extra/favicon.ico'
 ]
 
 EXTRA_PATH_METADATA = {
-    'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/CNAME': {'path': 'CNAME'},
-    'extra/README.md': {'path': 'README.md'},
-    'extra/karmatic_arcade.ttf': {'path': 'theme/css/karmatic_arcade.ttf'},
-    #'extra/favicon.ico': {'path': 'favicon.ico'}
+    'static/robots.txt': {'path': 'robots.txt'},
+    'static/CNAME': {'path': 'CNAME'},
+    'static/README.md': {'path': 'README.md'},
 }
-
+ARTICLE_EXCLUDES = ['static']
 ARTICLE_SAVE_AS = 'posts/{date:%Y-%m}/{slug}.html'
 ARTICLE_URL = 'posts/{date:%Y-%m}/{slug}.html'
 PAGE_URL = 'pages/{slug}.html'

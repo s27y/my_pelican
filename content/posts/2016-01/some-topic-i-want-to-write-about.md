@@ -13,4 +13,6 @@ Investing - Stock, ETF, Silver
 Chinchilla
 Weight training
 ### How I sent up this blog
-pelican, github page, domaincheap
+<del>pelican</del>
+<del>github page</del>
+customized github pages domain with domaincheap
